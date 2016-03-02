@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="col-xs-4 slogan">
-      Splurting out unsolicited advice about entrpreneurship since 2016
+      Splurting out unsolicited quotes about video games since 2016
     </div>
     <div class="col-xs-5 links">
       <%= link_to 'Contribute', '#' %>
@@ -29,7 +29,21 @@
   <hr />
   <br class="clear" />
 
-<%= yield %>
+<div class="container">
+  <%= yield %>
+</div>
+
+<div class="footer">
+  <div class="container">
+    <div class="col-xs-6">
+      <%= link_to 'This isn\'t enough, I need more', '#', class: 'next-quote' %>
+    </div>
+    <div class="col-xs-6 footer-blurb">
+      Proudly constructed in Austin, TX by Ricky<br />
+      Through the help of <a href="http://thefirehoseproject.com">thefirehoseproject</a>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
